@@ -13,6 +13,10 @@ main {
     padding: 2rem 1rem;
 }
 
+h3 {
+    margin-bottom: 10px;
+}
+
 #page-title {
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
@@ -23,5 +27,73 @@ main {
     margin: auto;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 1rem 3rem 2rem;
+    border-radius: 10px;
+}
+
+.line-button {
+    border-bottom: 1px solid rgb(202, 205, 209);
+    padding: 1rem 3rem 0.5rem;
+}
+
+.button {
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.blue {
+    background-color: rgb(99, 171, 235);
+    color: white;
+}
+
+.grey {
+    border-color: rgb(202, 205, 209) ;
+    color: rgb(202, 205, 209); 
+    border-color: rgb(202, 205, 209);
+}
+
+.list {
+    padding: 2em 3em;
+}
+
+.list-item {
+    margin-bottom: 2em;
+}
+
+.check-green {
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: x-small;
+}
+
+.check-red {
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: x-small;
+}
+
+.item {
+    margin-bottom:10px;
+}
+
+.button-list {
+    display: inline-block;
+    padding: 5px;
+    border-width: 1px;
+    border-style:solid;
+    border-radius:10px;
+    font-size: 10px;
+    color: white;
+}
+
+.description-item {
+    display: inline-block;
+    padding-left: 5px;
+    vertical-align: middle;
 }
